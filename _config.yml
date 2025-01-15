@@ -29,6 +29,8 @@ url: "https://ricardo.dev" # the base hostname & protocol for your site, e.g. ht
 twitter_username: ricardovanh
 github_username:  ricardovanh
 
+permalink: "/:year/:title"
+
 minima:
   social_links:
     - { platform: x, user_url: "https://x.com/ricardovanh" }
