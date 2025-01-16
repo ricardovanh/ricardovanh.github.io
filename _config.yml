@@ -32,10 +32,17 @@ github_username:  ricardovanh
 permalink: "/:title"
 
 minima:
+  skin: dark
   social_links:
     - { platform: x, user_url: "https://x.com/ricardovanh" }
     - { platform: github, user_url: "https://github.com/ricardovanh" }
     - { platform: rss, user_url: "/feed.xml" }
+
+author:
+  name: Ricardo van Hoepen
+  email: hello@ricardo.dev
+
+show_excerpts: true
 
 # Build settings
 theme: minima
