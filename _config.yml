@@ -49,9 +49,25 @@ theme: minima
 header_pages:
   - about.md
   - newsletter.md
+
+og_image:
+  output_dir: "assets/images/og"
+  image: "/assets/images/avatar@3x.jpg"
+  domain: "ricardo.dev"
+  border_bottom:
+    width: 20
+    fill:
+      - "#820C02"
+      - "#A91401"
+      - "#D51F06"
+      - "#DE3F24"
+      - "#EDA895"
+
 plugins:
   - jekyll-feed
   - jekyll-target-blank
+  - jekyll-seo-tag
+  - jekyll-og-image
 
 # Exclude from processing.
 # The following items will not be processed, by default.
