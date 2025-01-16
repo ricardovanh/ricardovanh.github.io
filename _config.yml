@@ -51,6 +51,7 @@ header_pages:
   - newsletter.md
 plugins:
   - jekyll-feed
+  - jekyll-target-blank
 
 # Exclude from processing.
 # The following items will not be processed, by default.
