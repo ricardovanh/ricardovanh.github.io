@@ -31,6 +31,8 @@ github_username:  ricardovanh
 
 permalink: "/:title"
 
+github_edit_url: "https://github.com/ricardovanh/ricardovanh.github.io/blob/master/"
+
 minima:
   skin: dark
   social_links:
@@ -43,6 +45,9 @@ author:
   email: hello@ricardo.dev
 
 show_excerpts: true
+
+tag_page_layout: tag_page
+tag_page_dir: tag
 
 # Build settings
 theme: minima
@@ -69,6 +74,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-og-image
   - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-tagging-related_posts
 
 # Exclude from processing.
 # The following items will not be processed, by default.

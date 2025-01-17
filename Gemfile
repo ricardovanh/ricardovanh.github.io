@@ -19,6 +19,9 @@ group :jekyll_plugins do
   gem "jekyll-target-blank"
   gem "jekyll-og-image"
   gem "jekyll-sitemap"
+  gem "jekyll-redirect-from"
+  gem "jekyll-tagging"
+  gem "jekyll-tagging-related_posts"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
